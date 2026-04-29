@@ -93,7 +93,7 @@ app.get("/", (req, res) => {
         </div>
 
         <div class="card">
-          <img src="https://www.google.com/imgres?q=jwellery&imgurl=https%3A%2F%2Fimages.jdmagicbox.com%2Fquickquotes%2Fimages_main%2F-dibb0dqj.jpg&imgrefurl=https%3A%2F%2Fwww.justdial.com%2Fjdmart%2FPalghar%2FBridal-Jewellery%2Fpid-2015459859%2F022PXX22-XX22-200627121915-T4M7&docid=PzW-e3Oek6NgcM&tbnid=mXan7h0MeaJbNM&vet=12ahUKEwip9uCg8JKUAxX3yDgGHT-yMzIQnPAOegQIdhAB..i&w=1500&h=1500&hcb=2&ved=2ahUKEwip9uCg8JKUAxX3yDgGHT-yMzIQnPAOegQIdhAB">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwZXSCpv2KIBIbpao1I8oue7eFbjc8_y2hji7iO3WAw&s">
           <h3>Karatcart Gold Plated Pearl</h3>
           <p>₹1,55,149.00</p>
         </div>
