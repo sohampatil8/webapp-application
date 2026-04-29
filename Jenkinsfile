@@ -24,10 +24,8 @@ pipeline{
         stage('push code'){
             steps{
                 withCredentials([usernamePassword(credentialsId: 'docker-creds', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
-                    sh '''
-                    echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin'
-                    docker push sohampatil08/webapp'
-                    '''
+                sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin'
+                sh 'docker push sohampatil08/webapp'
                 }
             }
         }
