@@ -87,21 +87,21 @@ app.get("/", (req, res) => {
 
       <section class="products">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a2c4d">
+          <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9o65CJKh5e0NbODaCRM4YSjomQQBZLQ5pKDqhdzETGbLBrz0AtGPD8zm99f9wdoHNR9dt7QKUJAbDsBKFU-dYNlbDzRH4OcgB4rGQZ3lBf_6-NBdNefCdt9HLQJammQU3WsboJo0&usqp=CAc">
           <h3>Gold Necklace</h3>
-          <p>₹75,000</p>
+          <p>₹14,30,494</p>
         </div>
 
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f">
-          <h3>Wedding Bangles</h3>
-          <p>₹55,000</p>
+          <img src="https://karatcart.com/products/11017324?srsltid=AfmBOoo8csnMFp3kowP85qNMAkzsZE4jSWVneUa2HUFj6NYIi0a6j6UG">
+          <h3>Karatcart Gold Plated Pearl</h3>
+          <p>₹1,55,149.00</p>
         </div>
 
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d">
+          <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpxYkOrMF5TKpzz5kGbbuQeE5-31rwZeMZHBMeBdX7nLwlKTaoRR7bMgaLtYu5hd2JSY4_bmMzZMxdatTmNf2tqLJUXQJa2NiebO4BqZa8DU8UTSz6KWSGP8o&usqp=CAc">
           <h3>Designer Ring</h3>
-          <p>₹25,000</p>
+          <p>₹152,262.95</p>
         </div>
       </section>
 
