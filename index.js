@@ -95,13 +95,17 @@ app.get("/", (req, res) => {
         </div>
 
         <div class="card">
+          <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwZXSCpv2KIBIbpao1I8oue7eFbjc8_y2hji7iO3WAw&s" target="_blank">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwZXSCpv2KIBIbpao1I8oue7eFbjc8_y2hji7iO3WAw&s">
+          </a>
           <h3>Karatcart Gold Plated Pearl</h3>
           <p>₹1,55,149.00</p>
         </div>
 
         <div class="card">
+          <a href="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpxYkOrMF5TKpzz5kGbbuQeE5-31rwZeMZHBMeBdX7nLwlKTaoRR7bMgaLtYu5hd2JSY4_bmMzZMxdatTmNf2tqLJUXQJa2NiebO4BqZa8DU8UTSz6KWSGP8o&usqp=CAc" target="_blank">
           <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpxYkOrMF5TKpzz5kGbbuQeE5-31rwZeMZHBMeBdX7nLwlKTaoRR7bMgaLtYu5hd2JSY4_bmMzZMxdatTmNf2tqLJUXQJa2NiebO4BqZa8DU8UTSz6KWSGP8o&usqp=CAc">
+          </a>
           <h3>Designer Ring</h3>
           <p>₹152,262.95</p>
         </div>
