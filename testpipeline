@@ -13,12 +13,15 @@ pipeline{
         }
         stage('push code'){
             steps{
-                echo 'push code successfully'
+                withCredentials([usernamePassword(credentialsId: 'docker-creds', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                    sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin'
+                    sh 'docker push sohampatil08/webapp'
+                }
             }
         }
         stage('deploy code'){
             steps{
-                echo 'deploy code successfully'
+                sh 'docker run -d -p 3000:3000 sohampatil08/webapp'
             }
         }
     }
