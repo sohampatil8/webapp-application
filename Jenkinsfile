@@ -11,11 +11,12 @@ pipeline{
     // }
     
     stages{
-        stage('checkout code'){
-            steps {
-                git branch: 'main', url: 'https://github.com/sohampatil8/webapp-application.git'
-            }
-        }
+        // stage('checkout code'){
+        //     steps {
+        //         git branch: 'main', url: 'https://github.com/sohampatil8/webapp-application.git'
+        //     }
+        // }
+        
         stage('build code'){
             steps {
                 sh 'docker build -t sohampatil08/webapp .'

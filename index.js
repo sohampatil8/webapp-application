@@ -1,67 +1,119 @@
 const express = require("express");
 const app = express();
 
-// Middleware to serve static files (optional)
-app.use(express.static("public"));
-
-// Route
 app.get("/", (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html>
     <head>
-      <title>DevOps Demo App</title>
+      <title>Golden Aura Jewellers</title>
       <style>
         body {
           margin: 0;
-          font-family: Arial, sans-serif;
-          background: linear-gradient(to right, #1e3c72, #2a5298);
-          color: white;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
+          font-family: 'Segoe UI', sans-serif;
+          background: #111;
+          color: #fff;
         }
-        .container {
+        header {
+          background: linear-gradient(to right, #d4af37, #ffd700);
+          padding: 20px;
           text-align: center;
+          color: #000;
+          font-size: 2rem;
+          font-weight: bold;
+          letter-spacing: 2px;
         }
-        h1 {
+        .hero {
+          text-align: center;
+          padding: 80px 20px;
+          background: url('https://images.unsplash.com/photo-1603575448360-153f093fd0b2') no-repeat center/cover;
+        }
+        .hero h1 {
           font-size: 3rem;
+          color: gold;
         }
-        p {
+        .hero p {
           font-size: 1.2rem;
         }
-        .badge {
+        .btn {
           margin-top: 20px;
-          padding: 10px 20px;
-          background: #00c9a7;
+          padding: 12px 25px;
+          background: gold;
+          color: black;
+          border: none;
           border-radius: 25px;
-          display: inline-block;
           font-weight: bold;
+          cursor: pointer;
         }
-        .footer {
-          position: absolute;
-          bottom: 20px;
+        .products {
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+          padding: 40px;
+          flex-wrap: wrap;
+        }
+        .card {
+          background: #1c1c1c;
+          padding: 20px;
+          border-radius: 15px;
+          width: 250px;
+          text-align: center;
+          box-shadow: 0 0 10px rgba(255,215,0,0.3);
+        }
+        .card img {
+          width: 100%;
+          border-radius: 10px;
+        }
+        .card h3 {
+          color: gold;
+        }
+        footer {
+          text-align: center;
+          padding: 15px;
+          background: #000;
           font-size: 0.9rem;
-          opacity: 0.8;
         }
       </style>
     </head>
     <body>
-      <div class="container">
-        <h1>🚀 DevOps Demo App</h1>
-        <p>Successfully deployed using CI/CD Pipeline</p>
-        <div class="badge">Version 2.0</div>
-      </div>
-      <div class="footer">
-        Running on Port 3000
-      </div>
+
+      <header>💎 Golden Aura Jewellers</header>
+
+      <section class="hero">
+        <h1>Elegance in Every Shine ✨</h1>
+        <p>Discover timeless gold collections crafted for you</p>
+        <button class="btn">Shop Now</button>
+      </section>
+
+      <section class="products">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a2c4d">
+          <h3>Gold Necklace</h3>
+          <p>₹75,000</p>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f">
+          <h3>Wedding Bangles</h3>
+          <p>₹55,000</p>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d">
+          <h3>Designer Ring</h3>
+          <p>₹25,000</p>
+        </div>
+      </section>
+
+      <footer>
+        © 2026 Golden Aura Jewellers | Trusted Since 1995
+      </footer>
+
     </body>
     </html>
   `);
 });
 
-// Server start
 app.listen(3000, () => {
-  console.log("Server running on port 3000 🚀");
+  console.log("Gold Jewellery Store running on port 3000 💎");
 });
