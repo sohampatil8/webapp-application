@@ -75,7 +75,7 @@ app.get("/", (req, res) => {
   <body>
     <div class="container">
       <h1>🚀 DevOps App</h1>
-      <p>CI/CD | Docker | Kubernetes Ready Application</p>
+      <p>Jenkins | Docker | Kubernetes Ready Application</p>
 
       <div class="card">
         <h2>Application Status</h2>
