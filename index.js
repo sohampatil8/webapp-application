@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
         }
         .hero {
           text-align: center;
-          padding: 50px 20px;
+          padding: 20px 20px;
           background: url('https://images.unsplash.com/photo-1603575448360-153f093fd0b2') no-repeat center/cover;
         }
         .hero h1 {
@@ -87,9 +87,11 @@ app.get("/", (req, res) => {
 
       <section class="products">
         <div class="card">
+          <a href="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9o65CJKh5e0NbODaCRM4YSjomQQBZLQ5pKDqhdzETGbLBrz0AtGPD8zm99f9wdoHNR9dt7QKUJAbDsBKFU-dYNlbDzRH4OcgB4rGQZ3lBf_6-NBdNefCdt9HLQJammQU3WsboJo0&usqp=CAc" target="_blank">
           <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9o65CJKh5e0NbODaCRM4YSjomQQBZLQ5pKDqhdzETGbLBrz0AtGPD8zm99f9wdoHNR9dt7QKUJAbDsBKFU-dYNlbDzRH4OcgB4rGQZ3lBf_6-NBdNefCdt9HLQJammQU3WsboJo0&usqp=CAc">
           <h3>Gold Necklace</h3>
           <p>₹14,30,494</p>
+            </a>
         </div>
 
         <div class="card">
