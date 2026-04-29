@@ -87,7 +87,6 @@ app.get("/", (req, res) => {
 
       <section class="products">
         <div class="card">
-          <a href="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9o65CJKh5e0NbODaCRM4YSjomQQBZLQ5pKDqhdzETGbLBrz0AtGPD8zm99f9wdoHNR9dt7QKUJAbDsBKFU-dYNlbDzRH4OcgB4rGQZ3lBf_6-NBdNefCdt9HLQJammQU3WsboJo0&usqp=CAc" target="_blank">
           <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9o65CJKh5e0NbODaCRM4YSjomQQBZLQ5pKDqhdzETGbLBrz0AtGPD8zm99f9wdoHNR9dt7QKUJAbDsBKFU-dYNlbDzRH4OcgB4rGQZ3lBf_6-NBdNefCdt9HLQJammQU3WsboJo0&usqp=CAc">
           <h3>Gold Necklace</h3>
           <p>₹14,30,494</p>
