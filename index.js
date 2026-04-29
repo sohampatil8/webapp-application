@@ -77,7 +77,7 @@ app.get("/", (req, res) => {
     </head>
     <body>
 
-      <header>💎 Golden Aura Jewellers</header>
+      <header>💎Aura Jewellers</header>
 
       <section class="hero">
         <h1>Elegance in Every Shine ✨</h1>
