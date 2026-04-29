@@ -1,0 +1,25 @@
+pipeline{
+    agent any
+    stages{
+        stage('pull code'){
+            steps {
+                sh 'git pull https://github.com/sohampatil8/webapp-application.git'
+            }
+        }
+        stage('build code'){
+            steps {
+                sh 'docker build -t sohampatil08/webapp .'
+            }
+        }
+        stage('push code'){
+            steps{
+                echo 'push code successfully'
+            }
+        }
+        stage('deploy code'){
+            steps{
+                echo 'deploy code successfully'
+            }
+        }
+    }
+}
