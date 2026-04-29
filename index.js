@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
     <!DOCTYPE html>
     <html>
     <head>
-      <title>Golden Aura Jewellers</title>
+      <title>Jewellers</title>
       <style>
         body {
           margin: 0;
