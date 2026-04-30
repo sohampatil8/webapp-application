@@ -1,11 +1,3 @@
-const express = require("express");
-const app = express();
-
-// Serve static files if needed (optional)
-app.use(express.static("public"));
-
-app.get("/", (req, res) => {
-  res.send(`
 <!doctype html>
 <html lang="en">
   <head>
@@ -3907,10 +3899,3 @@ app.get("/", (req, res) => {
     </script>
   </body>
 </html>
-
-  `);
-});
-
-app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
-});
