@@ -1,125 +1,115 @@
 const express = require("express");
 const app = express();
 
+// Serve static files if needed (optional)
+app.use(express.static("public"));
+
 app.get("/", (req, res) => {
   res.send(`
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title>Jewellers</title>
-      <style>
-        body {
-          margin: 0;
-          font-family: 'Segoe UI', sans-serif;
-          background: #111;
-          color: #fff;
-        }
-        header {
-          background: linear-gradient(to right, #ffd700, #ffd700);
-          padding: 20px;
-          text-align: center;
-          color: #000;
-          font-size: 2rem;
-          font-weight: bold;
-          letter-spacing: 2px;
-        }
-        .hero {
-          text-align: center;
-          padding: 20px 20px;
-          background: url('https://images.unsplash.com/photo-1603575448360-153f093fd0b2') no-repeat center/cover;
-        }
-        .hero h1 {
-          font-size: 3rem;
-          color: gold;
-        }
-        .hero p {
-          font-size: 1.2rem;
-        }
-        .btn {
-          margin-top: 20px;
-          padding: 12px 25px;
-          background: gold;
-          color: black;
-          border: none;
-          border-radius: 25px;
-          font-weight: bold;
-          cursor: pointer;
-        }
-        .products {
-          display: flex;
-          justify-content: center;
-          gap: 30px;
-          padding: 40px;
-          flex-wrap: wrap;
-        }
-        .card {
-          background: #1c1c1c;
-          padding: 20px;
-          border-radius: 15px;
-          width: 250px;
-          text-align: center;
-          box-shadow: 0 0 10px rgba(255,215,0,0.3);
-        }
-        .card img {
-          width: 100%;
-          border-radius: 10px;
-        }
-        .card h3 {
-          color: gold;
-        }
-        footer {
-          text-align: center;
-          padding: 15px;
-          background: #000;
-          font-size: 0.9rem;
-        }
-      </style>
-    </head>
-    <body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Soham Patil | DevOps Engineer</title>
 
-      <header>💎Aura Jewellers</header>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e6e6e6;
+  }
 
-      <section class="hero">
-        <h1>Elegance in Every Shine ✨</h1>
-        <p>Discover timeless gold collections crafted for you</p>
-        <button class="btn">Shop Now</button>
-      </section>
+  .container {
+    width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
 
-      <section class="products">
-        <div class="card">
-          <a href="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9o65CJKh5e0NbODaCRM4YSjomQQBZLQ5pKDqhdzETGbLBrz0AtGPD8zm99f9wdoHNR9dt7QKUJAbDsBKFU-dYNlbDzRH4OcgB4rGQZ3lBf_6-NBdNefCdt9HLQJammQU3WsboJo0&usqp=CAc" target="_blank">
-          <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9o65CJKh5e0NbODaCRM4YSjomQQBZLQ5pKDqhdzETGbLBrz0AtGPD8zm99f9wdoHNR9dt7QKUJAbDsBKFU-dYNlbDzRH4OcgB4rGQZ3lBf_6-NBdNefCdt9HLQJammQU3WsboJo0&usqp=CAc">
-          </a>
-          <h3>Gold Necklace</h3>
-          <p>₹14,30,494</p>
-        </div>
+  h1 {
+    margin-bottom: 5px;
+  }
 
-        <div class="card">
-          <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwZXSCpv2KIBIbpao1I8oue7eFbjc8_y2hji7iO3WAw&s" target="_blank">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwZXSCpv2KIBIbpao1I8oue7eFbjc8_y2hji7iO3WAw&s">
-          </a>
-          <h3>Karatcart Gold Plated Pearl</h3>
-          <p>₹1,55,149.00</p>
-        </div>
+  h2 {
+    color: #f39c12;
+    margin-top: 0;
+  }
 
-        <div class="card">
-          <a href="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpxYkOrMF5TKpzz5kGbbuQeE5-31rwZeMZHBMeBdX7nLwlKTaoRR7bMgaLtYu5hd2JSY4_bmMzZMxdatTmNf2tqLJUXQJa2NiebO4BqZa8DU8UTSz6KWSGP8o&usqp=CAc" target="_blank">
-          <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpxYkOrMF5TKpzz5kGbbuQeE5-31rwZeMZHBMeBdX7nLwlKTaoRR7bMgaLtYu5hd2JSY4_bmMzZMxdatTmNf2tqLJUXQJa2NiebO4BqZa8DU8UTSz6KWSGP8o&usqp=CAc">
-          </a>
-          <h3>Designer Ring</h3>
-          <p>₹152,262.95</p>
-        </div>
-      </section>
+  .section {
+    margin-top: 25px;
+  }
 
-      <footer>
-        © 2026 Golden Aura Jewellers | Trusted Since 1995
-      </footer>
+  .btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #f39c12;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+</style>
 
-    </body>
-    </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+function downloadPDF() {
+  const element = document.body;
+  html2pdf().from(element).save("resume.pdf");
+}
+</script>
+
+</head>
+
+<body>
+
+<button class="btn" onclick="downloadPDF()">Download PDF</button>
+
+<div class="container">
+  <h1>SOHAM PATIL</h1>
+  <h2>DEVOPS ENGINEER</h2>
+
+  <div class="section">
+    <h3>CONTACT</h3>
+    <p>+91 9867256690</p>
+    <p>sohamsatyajitpatil@email.com</p>
+  </div>
+
+  <div class="section">
+    <h3>ABOUT ME</h3>
+    <p>
+      DevOps Engineer with experience in AWS, Docker, Kubernetes,
+      CI/CD pipelines, and automation using Bash & PowerShell.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>SKILLS</h3>
+    <ul>
+      <li>Docker</li>
+      <li>Kubernetes</li>
+      <li>Jenkins</li>
+      <li>Terraform</li>
+      <li>AWS</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>EXPERIENCE</h3>
+    <p><b>Junior Engineer - TechVits Pvt Ltd</b></p>
+    <p>Automation, scripting, infrastructure management</p>
+  </div>
+
+</div>
+
+</body>
+</html>
   `);
 });
 
 app.listen(3000, () => {
-  console.log("Gold Jewellery Store running on port 3000 💎");
+  console.log("Server running on http://localhost:3000");
 });
