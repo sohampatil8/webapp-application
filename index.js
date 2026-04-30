@@ -2148,7 +2148,7 @@ app.get("/", (req, res) => {
             style="background: transparent; width: 40px; height: 46px"
           >
             <img
-              src="glowup-dental.svg"
+              src="\glowup-dental.svg"
               alt="Glowup Dental Logo"
               style="
                 width: 40px;
@@ -2156,7 +2156,7 @@ app.get("/", (req, res) => {
                 object-fit: contain;
                 display: block;
               "
-            >
+            />
           </div>
           Glowup Dental
         </a>
@@ -2457,7 +2457,7 @@ app.get("/", (req, res) => {
         <div class="svc-card">
           <img
             class="svc-img"
-            src="https://images.unsplash.com/photo-1588776814546-1ffbb083d06a?w=600&q=80&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="General Dentistry"
           />
           <span class="svc-num">01</span>
