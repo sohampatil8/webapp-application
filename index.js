@@ -2156,7 +2156,7 @@ app.get("/", (req, res) => {
                 object-fit: contain;
                 display: block;
               "
-            />
+            >
           </div>
           Glowup Dental
         </a>
