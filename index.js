@@ -2636,7 +2636,7 @@ app.get("/", (req, res) => {
               style="background: #000; padding: 0; margin: 0"
             >
               <img
-                src="\ydownload.jpg"
+                src="/ydownload.jpg"
                 alt="Before whitening"
                 style="
                   width: 100%;
@@ -2657,7 +2657,7 @@ app.get("/", (req, res) => {
                 style="background: #000; padding: 0"
               >
                 <img
-                  src="\white.png"
+                  src="/white.png"
                   alt="After whitening"
                   style="
                     width: 100%;
