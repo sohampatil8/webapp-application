@@ -2636,7 +2636,7 @@ app.get("/", (req, res) => {
               style="background: #000; padding: 0; margin: 0"
             >
               <img
-                src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop&crop=faces"
+                src="\ydownload.jpg"
                 alt="Before whitening"
                 style="
                   width: 100%;
@@ -2657,7 +2657,7 @@ app.get("/", (req, res) => {
                 style="background: #000; padding: 0"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80&auto=format&fit=crop&crop=faces"
+                  src="\white.png"
                   alt="After whitening"
                   style="
                     width: 100%;
