@@ -2472,7 +2472,7 @@ app.get("/", (req, res) => {
         <div class="svc-card">
           <img
             class="svc-img"
-            src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80&auto=format&fit=crop"
+            src="/odcc.png"
             alt="Teeth Whitening"
           />
           <span class="svc-num">02</span>
@@ -2502,7 +2502,7 @@ app.get("/", (req, res) => {
         <div class="svc-card">
           <img
             class="svc-img"
-            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80&auto=format&fit=crop"
+            src="/odc.jpg"
             alt="Orthodontics"
           />
           <span class="svc-num">04</span>
@@ -2730,7 +2730,7 @@ app.get("/", (req, res) => {
               style="background: #000; padding: 0; margin: 0"
             >
               <img
-                src="/odc.jpg"
+                src="/occ.png"
                 alt="Before orthodontics"
                 style="
                   width: 100%;
@@ -2848,7 +2848,7 @@ app.get("/", (req, res) => {
         </div>
         <div class="gi" data-cat="whitening">
           <img
-            src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80&auto=format&fit=crop"
+            src="/odcc.png"
             alt="Teeth whitening"
           />
           <div class="gi-ov">
@@ -2860,7 +2860,7 @@ app.get("/", (req, res) => {
         </div>
         <div class="gi" data-cat="braces">
           <img
-            src="https://images.unsplash.com/photo-1588776814546-1ffbb083d06a?w=600&q=80&auto=format&fit=crop"
+            src="/checkup.jpg"
             alt="Orthodontics"
           />
           <div class="gi-ov">
@@ -2920,7 +2920,7 @@ app.get("/", (req, res) => {
         </div>
         <div class="gi" data-cat="braces">
           <img
-            src="https://images.unsplash.com/photo-1588776814546-1ffbb083d06a?w=600&q=80&auto=format&fit=crop&crop=bottom"
+            src="/clearaligners.jpg"
             alt="Clear aligners"
           />
           <div class="gi-ov">
