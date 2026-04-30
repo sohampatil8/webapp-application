@@ -2148,7 +2148,7 @@ app.get("/", (req, res) => {
             style="background: transparent; width: 40px; height: 46px"
           >
             <img
-              src="\glowup-dental.svg"
+              src="glowup-dental.svg"
               alt="Glowup Dental Logo"
               style="
                 width: 40px;
