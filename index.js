@@ -2730,7 +2730,7 @@ app.get("/", (req, res) => {
               style="background: #000; padding: 0; margin: 0"
             >
               <img
-                src="https://images.unsplash.com/photo-1588776814546-1ffbb083d06a?w=800&q=80&auto=format&fit=crop&crop=faces"
+                src="/odc.jpg"
                 alt="Before orthodontics"
                 style="
                   width: 100%;
@@ -2751,7 +2751,7 @@ app.get("/", (req, res) => {
                 style="background: #000; padding: 0"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=80&auto=format&fit=crop&crop=faces"
+                  src="/odcc.png"
                   alt="After orthodontics"
                   style="
                     width: 100%;
