@@ -2268,7 +2268,7 @@ app.get("/", (req, res) => {
         <!-- clinic photo -->
         <div class="hr-photo">
           <img
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=85&auto=format&fit=crop&crop=top"
+            src="/clinic.jpeg"
             alt="Inside Glowup Dental Clinic clinic, Thane West"
             loading="eager"
           />
@@ -2457,7 +2457,7 @@ app.get("/", (req, res) => {
         <div class="svc-card">
           <img
             class="svc-img"
-            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="/gumops.jpeg"
             alt="General Dentistry"
           />
           <span class="svc-num">01</span>
@@ -2487,7 +2487,7 @@ app.get("/", (req, res) => {
         <div class="svc-card">
           <img
             class="svc-img"
-            src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80&auto=format&fit=crop"
+            src="/alligners.jpeg"
             alt="Dental Implants"
           />
           <span class="svc-num">03</span>
@@ -2578,8 +2578,8 @@ app.get("/", (req, res) => {
         <div class="how-image-panel reveal">
           <img
             class="how-img"
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=85&auto=format&fit=crop"
-            alt="Dental care at Glowup Dental Clinic"
+            src="/clinic.jpeg"
+            alt="Inside Glowup Dental Clinic clinic, Thane West"
           />
           <div class="how-img-overlay"></div>
           <div class="how-img-caption">
@@ -2836,13 +2836,13 @@ app.get("/", (req, res) => {
       <div class="gallery-grid reveal" id="gg">
         <div class="gi wide" data-cat="cosmetic">
           <img
-            src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80&auto=format&fit=crop"
+            src="/suggest.jpeg"
             alt="Smile makeover"
           />
           <div class="gi-ov">
             <div>
-              <div class="gi-lbl">Full Smile Makeover</div>
-              <div class="gi-sub">Veneers + whitening</div>
+              <div class="gi-lbl">Suggestion</div>
+              <div class="gi-sub">Discuss + Suggestion</div>
             </div>
           </div>
         </div>
@@ -2860,31 +2860,31 @@ app.get("/", (req, res) => {
         </div>
         <div class="gi" data-cat="braces">
           <img
-            src="/checkup.jpg"
+            src="/alligners.jpeg"
             alt="Orthodontics"
           />
           <div class="gi-ov">
             <div>
               <div class="gi-lbl">Orthodontics</div>
-              <div class="gi-sub">18-month braces</div>
+              <div class="gi-sub">18-month Alligners</div>
             </div>
           </div>
         </div>
         <div class="gi" data-cat="implants">
           <img
-            src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80&auto=format&fit=crop"
+            src="/odc.jpg"
             alt="Dental Implant"
           />
           <div class="gi-ov">
             <div>
               <div class="gi-lbl">Dental Implant</div>
-              <div class="gi-sub">Single-tooth restore</div>
+              <div class="gi-sub">Multiple-tooth restore</div>
             </div>
           </div>
         </div>
         <div class="gi" data-cat="cosmetic">
           <img
-            src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=600&q=80&auto=format&fit=crop"
+            src="/veneer.jpg"
             alt="Veneers"
           />
           <div class="gi-ov">
@@ -2896,7 +2896,7 @@ app.get("/", (req, res) => {
         </div>
         <div class="gi wide" data-cat="implants">
           <img
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80&auto=format&fit=crop"
+            src="/gumops.jpeg"
             alt="Dental care"
           />
           <div class="gi-ov">
@@ -2908,19 +2908,19 @@ app.get("/", (req, res) => {
         </div>
         <div class="gi" data-cat="whitening">
           <img
-            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80&auto=format&fit=crop"
+            src="/white.png"
             alt="Whitening treatment"
           />
           <div class="gi-ov">
             <div>
-              <div class="gi-lbl">Whitening + Cleaning</div>
+              <div class="gi-lbl">Whitening</div>
               <div class="gi-sub">Complete refresh</div>
             </div>
           </div>
         </div>
         <div class="gi" data-cat="braces">
           <img
-            src="/clearaligners.jpg"
+            src="/Clearalligners.jpg"
             alt="Clear aligners"
           />
           <div class="gi-ov">
@@ -3606,7 +3606,7 @@ app.get("/", (req, res) => {
         <div class="bl">
           <div class="bl-thumb">
             <img
-              src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&q=75&auto=format&fit=crop"
+              src="suggest.jpeg"
               alt="Dental anxiety"
             />
           </div>
@@ -3619,7 +3619,7 @@ app.get("/", (req, res) => {
         <div class="bl">
           <div class="bl-thumb">
             <img
-              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=75&auto=format&fit=crop"
+              src="alligners.jpeg"
               alt="Implants vs dentures"
             />
           </div>
@@ -3632,7 +3632,7 @@ app.get("/", (req, res) => {
         <div class="bl">
           <div class="bl-thumb">
             <img
-              src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=75&auto=format&fit=crop"
+              src="food.jpg"
               alt="Healthy teeth foods"
             />
           </div>
